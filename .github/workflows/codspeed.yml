@@ -42,4 +42,4 @@ jobs:
         name: Run benchmarks
         with:
           run: cargo codspeed run
-
+          upload_url: https://api.staging.preview.codspeed.io/upload
