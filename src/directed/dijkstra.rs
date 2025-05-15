@@ -221,9 +221,7 @@ where
             // We may have inserted a node several time into the binary heap if we found
             // a better way to access it. Ensure that we are currently dealing with the
             // best path and discard the others.
-            if cost > c {
-                continue;
-            }
+
             successors(node)
         };
         for (successor, move_cost) in successors {
