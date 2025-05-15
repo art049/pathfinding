@@ -10,6 +10,7 @@ This crate implements several pathfinding, flow, and graph algorithms in [Rust][
 
 The algorithms are generic over their arguments.
 
+
 ### Directed graphs
 
 - [A*][A*]: find the shortest path in a weighted graph using an heuristic to guide the process.
